@@ -5,18 +5,15 @@
   </head>
 
   <body>
-    <div class="topnav">
-      <div id="left-side-nav">
-        <a class="active" href="#">About</a>
-        <a href="#">Store</a>
-      </div>
-
-      <div id="right-side-nav">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#">Pancake </a>
-        <a href="#">Photo of me</a>
-      </div>
+    <div class="top-nav">
+      <ul id="top-nav-bar-list">
+        <li style="float: left"><a class="active" href="#">About</a></li>
+        <li style="float: left"><a href="#">Store</a></li>
+        <li style="float: right"><a href="#"><img id ='profile-pic' src='Profile-pic.jpg'> </img> </a></li>
+        <li style="float: right"><a href="#">Pancake </a></li>
+        <li style="float: right"><a href="#">Images</a></li>
+        <li style="float: right"><a href="#">Gmail</a></li>
+      </ul>
     </div>
 
     <div>
@@ -25,25 +22,30 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
       />
     </div>
-    <div id="search-box">
-      <input type="text" placeholder="Search" />
+
+    <div id="search-box-div">
+      <input id="search-box" type="text" />
     </div>
     <div id="buttons-div">
-      <button>Submit</button>
-      <button>I'm Feeling Lucky</button>
-    </div>
-    <footer>
-      <div id="left-side-footer">
-        <a class="active" href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
-      </div>
+      <button class="search-buttons" id="submit">Google Search</button>
 
-      <div id="right-side-footer">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
-      </div>
-    </footer>
+      <button class="search-buttons" id="feeling-button">
+        I'm Feeling Lucky
+      </button>
+    </div>
+    <div id="footer-div">
+    <footer>
+      <ul id="footer-list">
+        <li style="float: left"><a style = "float:left" href="#">Advertising</a> </li>
+        <li style="float: left"><a style = "float:left" href="#">Business</a></li>
+        <li style="float: left"><a style = "float:left" href="#">How Search Works</a></li>
+    
+
+     
+        <li style="float: right"><a style = "float:right" href="#">Privacy</a></li>
+        <li style="float: right"><a style = "float:right" href="#">Terms</a></li>
+        <li style="float: right"><a style = "float:right" href="#">Settings</a></li>
+      </ul>
+    </footer></div>
   </body>
 </html>

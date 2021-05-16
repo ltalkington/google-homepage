@@ -38,7 +38,106 @@ video {
   border: 0;
 }
 
+.top-nav {
+  text-align: bottom;
+}
+
 #google-photo {
-  width: 200px;
+  width: 300px;
   height: auto;
+  padding-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+li {
+  text-align: bottom;
+}
+
+#top-nav-bar-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+#profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+li a {
+  text-align: bottom;
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #222;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#search-box {
+  display: block;
+  width: 500px;
+  height: 37px;
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#search-box-div {
+  padding-bottom: 30px;
+}
+
+#buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-list {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit,
+#feeling-button {
+  width: 140px;
+  font-size: 15px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  color: #3c4043;
+}
+
+#submit {
+  margin-right: 10px;
+}
+
+#submit:hover,
+#feeling-button:hover {
+  border: 1px solid #3c4043;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  width: 100%;
+  background-color: #f2f2f2;
+}
+footer a {
+  color: #70757a;
+  margin: 5px;
+}
+#footer-list {
+  padding-left: 10px;
 }
